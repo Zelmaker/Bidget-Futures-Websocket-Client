@@ -1,6 +1,6 @@
 # Bitget Futures Websocket Client
 
-This is a python script for connecting to the Bitget Futures websocket and subscribe to the orders channel, also the script will send a message to Telegram if the server goes down.
+This is a python script for connecting to the Bitget Futures websocket and subscribe to the orders channel, also the script will send a message to Telegram when new orders placed
 
 ## Requirements
 - Python 3.7+
@@ -17,3 +17,23 @@ This is a python script for connecting to the Bitget Futures websocket and subsc
     secretKey = 'your_secret_key'
     telegram_token = "your_telegram_token"
     telegram_channel_id = "your_telegram_channel_id"
+
+- Run the script using the command:
+python bitget_websocket.py
+- you should see the authenticated successfully on the console
+
+## Telegram Alert
+- If server goes down, the script can't run, to get notified of the server going down, you can use different cloud-based monitoring service or a cron job that regularly pings your server to check its availability, and sends a message to Telegram if it doesn't get a response.
+
+## Notes
+- Please make sure you are in compliance with Bitget's terms of service and API policies.
+- Handle the errors in script, and also the invalid response from the telegram api and retry sending message after certain interval in case of any failure.
+- The script is for educational purposes and should not be used in production without proper testing and modification.
+
+## Resources
+- Bitget Futures Websocket API documentation: link
+- Telegram API documentation: link
+
+## Author
+Zelmaker [website ([https://github.com/Zelmaker])][website]
+Zelmaker https://github.com/Zelmaker
