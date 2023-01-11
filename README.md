@@ -31,9 +31,8 @@ python bitget_websocket.py
 - The script is for educational purposes and should not be used in production without proper testing and modification.
 
 ## Resources
-- Bitget Futures Websocket API documentation: link
-- Telegram API documentation: link
+- Bitget Futures Websocket API documentation: [link](https://docs.bitget.com/)
+- Telegram API documentation: [link](https://core.telegram.org/bots/api)
 
 ## Author
-Zelmaker [website] ([https://github.com/Zelmaker])][website]
-Zelmaker https://github.com/Zelmaker
+[Zelmaker](https://github.com/Zelmaker)
