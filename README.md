@@ -17,7 +17,7 @@ This is a python script for connecting to the Bitget Futures websocket and subsc
     secretKey = 'your_secret_key'
     telegram_token = "your_telegram_token"
     telegram_channel_id = "your_telegram_channel_id"
-
+```
 - Run the script using the command:
 python bitget_websocket.py
 - you should see the authenticated successfully on the console
@@ -35,5 +35,5 @@ python bitget_websocket.py
 - Telegram API documentation: link
 
 ## Author
-Zelmaker [website ([https://github.com/Zelmaker])][website]
+Zelmaker [website] ([https://github.com/Zelmaker])][website]
 Zelmaker https://github.com/Zelmaker
